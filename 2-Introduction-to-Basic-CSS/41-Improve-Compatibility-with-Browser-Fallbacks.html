@@ -1,0 +1,13 @@
+/*Here we learned another important lesson for backwards compatibility and debugging: newer browsers and HTML will ready the code and catch the last style update, whereas older versions have a declaration up front that they understand, and ignore the following styling code*/
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>

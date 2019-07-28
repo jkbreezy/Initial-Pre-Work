@@ -1,0 +1,7 @@
+/*We learned how to concatinae strings, this was actually an issue I had during my programming classes....*/
+// Example
+var ourStr = "I come first. " + "I come second.";
+
+// Only change code below this line
+
+var myStr = "This is the start. " + 'This is the end.';

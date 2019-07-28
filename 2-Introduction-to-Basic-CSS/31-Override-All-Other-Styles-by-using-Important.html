@@ -1,0 +1,18 @@
+/*The page stated exactly why this lesson is (haha) important. When importing a CSS library it can easily change styles without an obvious reason why, being able to specify that items of code are important, you can override changes made elsewhere to get the desired result*/
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
